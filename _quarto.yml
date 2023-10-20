@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Zero to Quarto Workshop"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+    right: 
+      - icon: github
+        href: https://github.com
+        
+format:
+  html:
+    # theme: zephyr
+    theme: styles.scss
+    toc: true
